@@ -8,7 +8,7 @@ To fix this under Wayland (Raspberry Pi OS Bookworm) you must force the drm kms 
 
 
 	$ sudo mkdir /usr/lib/firmware/edid
-	$ wget https://github.com/bjoernh/Rpi4-motorola-Awtrix-lapdock/raw/refs/heads/master/1368x768_60.bin
+	$ wget https://github.com/bjoernh/Rpi4-motorola-Awtrix-lapdock/raw/refs/heads/main/1368x768_60.bin
 	$ sudo mv 1368x768_60.bin /usr/lib/firmware/edid/
 
  Edit `/boot/firmware/cmdline.txt` and append this string to the end of the line
